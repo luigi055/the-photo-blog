@@ -30,6 +30,6 @@
 	},
 	"dependencies": {
 		"express": "4.16.2",
-		"simply-slide": "^0.0.1"
+		"simply-slide": "^0.0.2"
 	}
 }

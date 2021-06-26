@@ -16,6 +16,7 @@
 
 .blog__gallery__button {
 	background: none;
+	cursor: pointer;
 	border-color: #333;
 	width: 100%;
 }

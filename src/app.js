@@ -5,9 +5,6 @@ import createImageSlide from "./components/slider";
 import { fetchPhotosByPage } from "./services/unsplash-api";
 
 function initializeSlider(element) {
-	const { UNSPLASH_API_KEY } = process.env;
-	let galleryPage = 0;
-
 	document.addEventListener("DOMContentLoaded", function (event) {
 		const slide = setSlider({
 			node: element,
@@ -18,12 +15,12 @@ function initializeSlider(element) {
 		const btn = document.getElementById("more-images-btn");
 
 		btn.addEventListener("click", async () => {
-			galleryPage += 1;
+			const randomGalleryPage = Math.floor(Math.random() * 1000);
 			btn.setAttribute("disabled", "true");
 			const originalText = btn.textContent;
 			btn.textContent = "Loading...";
 
-			const photos = await fetchPhotosByPage(galleryPage);
+			const photos = await fetchPhotosByPage(randomGalleryPage);
 
 			photos.forEach((photo) => {
 				slide.addLazy(createImageSlide(photo));

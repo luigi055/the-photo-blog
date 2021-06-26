@@ -1,0 +1,14 @@
+.topbar {
+	background-color: var(--primary-color);
+	margin-bottom: 30px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.topbar .topbar__link {
+	display: block;
+	text-decoration: none;
+	color: var(--on-primary-color);
+}

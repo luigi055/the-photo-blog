@@ -11,9 +11,8 @@ function initializeSlider(element) {
 	document.addEventListener("DOMContentLoaded", function (event) {
 		const slide = setSlider({
 			node: element,
-			controlsColor: "#f905",
-			controlsActiveColor: "#f90",
-			directionIconColor: "#333",
+			directionIconColor: "#25252599",
+			controlsColor: "#a0e7e599",
 		});
 
 		const btn = document.getElementById("more-images-btn");

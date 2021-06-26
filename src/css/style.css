@@ -1,10 +1,8 @@
-.blog__gallery {
-	width: 300px;
-	height: 150px;
-}
-
-.blog__gallery__image {
-	object-fit: cover;
-	width: 300px;
-	height: 150px;
-}
+@import "./variables.css";
+@import "./reset.css";
+@import "./base.css";
+@import "./typography.css";
+@import "./layout.css";
+@import "./topbar.css";
+@import "./gallery.css";
+@import "./sidebar.css";

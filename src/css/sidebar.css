@@ -1,0 +1,19 @@
+.sidebar {
+	border-top: 1px solid #dcdcdc;
+	padding-top: 20px;
+}
+
+.sidebar .nav .nav__item {
+	color: var(--on-background-color);
+	display: block;
+	margin-bottom: 10px;
+	list-style: circle outside;
+}
+
+@media screen and (min-width: 992px) {
+	.sidebar {
+		border-top: none;
+		border-left: 1px solid #dcdcdc;
+		padding-left: 20px;
+	}
+}

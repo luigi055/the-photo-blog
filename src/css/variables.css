@@ -1,0 +1,22 @@
+:root {
+	--base-size: 1rem;
+	--type-scale: 1.3;
+	--h3: calc(var(--base-size) * var(--type-scale));
+	--h2: calc(var(--h3) * var(--type-scale));
+	--h1: calc(var(--h2) * var(--type-scale));
+	--text-sm: calc(var(--base-size) / var(--type-scale));
+	--background-color: #f9f9fa;
+	--on-background-color: #333;
+	--on-background-alternative-color: #050505;
+	--primary-color: #a0e7e5;
+	--on-primary-color: #252525;
+	--sm-breakpoint: 576px;
+	--md-breakpoint: 768px;
+	--lg-breakpoint: 992px;
+}
+
+@media screen and (max-width: 576px) {
+	:root {
+		--type-scale: 1.2;
+	}
+}

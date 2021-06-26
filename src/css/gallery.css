@@ -1,0 +1,43 @@
+.blog__gallery__wrapper {
+	padding-bottom: 15px;
+	width: 290px;
+	margin: 0 auto;
+}
+
+.blog__gallery {
+	height: 240px;
+}
+
+.blog__gallery__image {
+	height: 240px;
+	object-fit: cover;
+	width: 290px;
+}
+
+.blog__gallery__button {
+	background: none;
+	border-color: #333;
+	width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+	.blog__gallery__wrapper {
+		width: 400px;
+	}
+
+	.blog__gallery {
+		height: 300px;
+	}
+
+	.blog__gallery__image {
+		height: 300px;
+		width: 400px;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.blog__gallery__wrapper {
+		float: left;
+		margin-right: 15px;
+	}
+}

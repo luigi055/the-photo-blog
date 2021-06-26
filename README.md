@@ -22,8 +22,6 @@ You can access to the blog [HERE](http://the-photo-blog.surge.sh/)
 
 You can download the app and play around, enhance or even learn from it, and here is how to do it:
 
-<details><summary><b>Show instructions</b></summary>
-
 1.  Clone the repo:
 
     ```sh

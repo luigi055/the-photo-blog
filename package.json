@@ -28,6 +28,6 @@
 		"webpack-dev-server": "3.11.2"
 	},
 	"dependencies": {
-		"simply-slide": "^0.0.6"
+		"simply-slide": "^0.0.7"
 	}
 }

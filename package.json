@@ -4,8 +4,7 @@
 	"description": "Awesome blog template",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js",
-		"dev": "webpack serve",
+		"start": "webpack serve",
 		"build:dev": "webpack",
 		"build": "webpack --mode production"
 	},
@@ -29,7 +28,6 @@
 		"webpack-dev-server": "3.11.2"
 	},
 	"dependencies": {
-		"express": "4.16.2",
-		"simply-slide": "^0.0.2"
+		"simply-slide": "^0.0.6"
 	}
 }

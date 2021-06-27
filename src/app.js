@@ -10,6 +10,7 @@ function initializeSlider(element) {
 			node: element,
 			directionIconColor: "#25252599",
 			controlsColor: "#a0e7e599",
+			shouldDisableContextMenu: true,
 		});
 
 		const btn = document.getElementById("more-images-btn");

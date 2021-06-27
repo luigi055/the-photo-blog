@@ -36,9 +36,9 @@ You can download the app and play around, enhance or even learn from it, and her
 
 3.  start the app in dev mode😃:
 
-        ```sh
-        $ npm run dev
-        ```
+    ```sh
+    $ npm run start
+    ```
 
     </details>
 
